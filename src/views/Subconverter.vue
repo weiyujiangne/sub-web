@@ -255,7 +255,10 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "https://jth-subconver.herokuapp.com/sub?" }],
+        backendOptions: [
+            { value: "https://jth-subconver.herokuapp.com/sub?" },
+            { value: "https://subconver-temp1.koyeb.app/sub?" },
+        ],
         remoteConfig: [
         {
             label: "ACL4SSR",
